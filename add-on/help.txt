@@ -1,0 +1,6 @@
+put resnet18.py in model/cifar
+
+put data.py in utils
+
+put data-local folder in the main column
+put others in the main column
