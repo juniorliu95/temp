@@ -10,6 +10,7 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )" # bin
 
 echo "Downloading and unpacking CIFAR-100"
+mkdir -p $DIR/../images/cifar/cifar100/by-image/
 mkdir -p $DIR/../workdir
 mkdir -p $DIR/../labels/cifar100/1000_balanced_labels
 mkdir -p $DIR/../labels/cifar100/4000_balanced_labels
